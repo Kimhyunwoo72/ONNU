@@ -1,0 +1,138 @@
+.ony-shop {
+  padding: 10vw 15vw 0;
+}
+.ony-shop__text {
+  padding: 10vw 0;
+}
+.ony-shop__text-sub-title {
+  overflow: hidden;
+}
+.ony-shop__text-sub-title > span {
+  display: inline-block;
+  font-size: 1vw;
+  text-transform: uppercase;
+  transform: translateY(100%);
+}
+
+.ony-shop__text-title {
+  overflow: hidden;
+}
+.ony-shop__text-title > h2 {
+  margin-top: 3vw;
+  font-size: 4vw;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  transform: translateY(100%);
+}
+
+.ony-shop__box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15vw;
+  opacity: 0;
+  transform: translateY(20%);
+}
+
+.ony-shop__box:nth-child(2) {
+  margin-top: 5vw;
+}
+
+.ony-shop__box-title {
+  width: 50%;
+  font-size: 1vw;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.ony-shop__box-info {
+  width: 50%;
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+
+.ony-shop__box-info-img {
+  width: 100%;
+  height: 25vw;
+  margin-top: 4vw;
+}
+.ony-shop__box-info-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ony-shop__bundle {
+  margin-top: 20vw;
+}
+
+.ony-shop__bundle-title {
+  overflow: hidden;
+}
+
+.ony-shop__bundle-title > h3 {
+  font-size: 1.5vw;
+  font-weight: 400;
+  transform: translateY(120%);
+}
+
+.ony-shop__bundle-desc {
+  overflow: hidden;
+}
+.ony-shop__bundle-desc > p {
+  margin-top: 1vw;
+  font-size: 1vw;
+  color: #727171;
+  transform: translateY(120%);
+}
+
+.ony-shop__shop__bundle-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4vw;
+  opacity: 0;
+  transform: translateY(20%);
+}
+
+.ony-shop__shop__bundle-img {
+  width: 50%;
+  height: 30vw;
+  padding: 0.5vw;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .ony-shop {
+    transform: translateY(10%) !important;
+    padding: 10vw 10vw 60vw;
+  }
+  .ony-shop__text-sub-title > span {
+    font-size: 4vw;
+  }
+  .ony-shop__text-title > h2 {
+    font-size: 6vw;
+    letter-spacing: 6px;
+  }
+  .ony-shop__box {
+    flex-direction: column;
+  }
+  .ony-shop__box-title {
+    width: 100%;
+    font-size: 5vw;
+  }
+  .ony-shop__box-info {
+    width: 100%;
+    margin-top: 3vw;
+    font-size: 3vw;
+  }
+  .ony-shop__box-info-img {
+    height: 50vw;
+  }
+  .ony-shop__bundle-title > h3 {
+    font-size: 5vw;
+  }
+  .ony-shop__bundle-desc > p {
+    margin-top: 3vw;
+    font-size: 3vw;
+  }
+}

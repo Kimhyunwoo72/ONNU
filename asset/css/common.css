@@ -1,0 +1,18 @@
+.blind {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  text-indent: -9999px;
+}
+
+* {
+  font-family: 'GmarketSans';
+}
+
+.important {
+  color: red;
+  font-size: 0.8vw !important;
+}
