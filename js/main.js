@@ -3,7 +3,7 @@ const kvWidth = document.querySelector('.ony__kv').clientWidth;
 // Initialize Swiper
 var swiper = new Swiper('.ony__swiper', {
   centeredSlides: true,
-  spaceBetween: 40,
+  spaceBetween: 0,
   slidesPerView: 'auto',
   pagination: {
     el: '.swiper-pagination',
@@ -28,7 +28,7 @@ if (kvWidth > 768) {
   gsap.to('.ony__kv-wrap', {
     scrollTrigger: {
       trigger: '.ony__kv',
-      start: '30% center',
+      start: '40% center',
       end: 200 + '%',
       scrub: 1,
       pin: true

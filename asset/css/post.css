@@ -65,7 +65,7 @@
 @media (max-width: 768px) {
   .ony-post {
     padding: 15vw 10vw 60vw;
-    transform: translateY(15%) !important;
+    transform: translateY(15%);
   }
   .ony-post__box {
     min-height: 52vh;
