@@ -202,11 +202,12 @@
 }
 
 .ony__kv-title {
-  font-size: 12vw;
+  font-size: 10vw;
   padding-top: 7vw;
   text-align: center;
   color: #fff;
   font-weight: 300;
+  text-transform: uppercase;
 }
 
 .ony__kv-text {
@@ -216,7 +217,7 @@
 
 .ony__kv-desc {
   margin-top: 1vw;
-  font-size: 1.5vw;
+  font-size: 2vw;
   text-align: right;
   color: #e4e4e4;
 }
@@ -237,7 +238,7 @@
 }
 
 .ony__about-sub-title {
-  font-size: 3.5vw;
+  font-size: 3vw;
 }
 
 .ony__about-sub-title > div:nth-child(2) {
@@ -292,7 +293,7 @@
 .swiper-slide img {
   display: block;
   top: 0;
-  width: 100%;
+  width: 85%;
   height: 30vw;
   object-fit: cover;
 }
@@ -440,18 +441,20 @@
 }
 
 .ony__shop-prev {
-  background-image: url(../img/onnu-shop-01.jpg);
+  background-image: url(../img/onnu_img02.jpg);
   background-color: #ccc;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   width: 23%;
   height: 20vw;
 }
 
 .ony__shop-main {
-  background-image: url(../img/onnu-shop-03.jpg);
+  background-image: url(../img/onnu_img01.jpg);
   background-color: #222;
   background-size: cover;
+  background-position: center;
   width: 60%;
 }
 
@@ -467,7 +470,7 @@
   width: 100%;
   height: 20vw;
   bottom: 0;
-  background-image: url(../img/onnu-shop-06.jpg);
+  background-image: url(../img/onnu_img03.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -631,6 +634,8 @@
 }
 
 .footer__info-item {
+  display: flex;
+  align-items: center;
   margin-right: 2vw;
   transition: opacity 0.3s;
 }
@@ -638,9 +643,10 @@
 .footer__info-link {
   position: relative;
   color: rgb(220, 219, 219);
-  font-size: 0.8vw;
+  font-size: 1vw;
   text-transform: uppercase;
   transition: all 0.6s;
+  margin-left: 5px;
 }
 
 .footer__info-link::after {
@@ -662,6 +668,20 @@
 
 .footer__info-item:hover .footer__info-link::after {
   width: 100%;
+}
+
+.footer__icon {
+  display: inline-block;
+  width: 2vw;
+  height: 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer__icon-blog {
+  background-image: url(../img/blog_icon01.png);
+}
+.footer__icon-instagram {
+  background-image: url(../img/instagram_icon01.png);
 }
 
 /* footer */
@@ -919,6 +939,10 @@
     margin-top: 10vw;
   }
 
+  .footer__info-item {
+    margin-right: 50px;
+  }
+
   .footer__info-list {
     margin-top: 10vw;
   }
@@ -933,6 +957,13 @@
 
   .footer__info-link {
     font-size: 3vw;
+  }
+  .footer__icon {
+    display: inline-block;
+    width: 4vw;
+    height: 4vw;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
