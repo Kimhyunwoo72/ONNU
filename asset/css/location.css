@@ -82,6 +82,9 @@
   font-size: 0.8vw;
   line-height: 1.5;
 }
+.wrap_controllers {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .ony-location {
